@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointPnP.Modernization.Framework", "SharePointPnP.Modernization.Framework\SharePointPnP.Modernization.Framework.csproj", "{2C80435C-340A-4E6B-B4E3-F13451ABB6C9}"
 EndProject
@@ -25,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointPnP.Modernization.Framework.Profiler", "SharePointPnP.Modernization.Framework.Profiler\SharePointPnP.Modernization.Framework.Profiler.csproj", "{184B8275-F8EA-4011-BCE6-E44E03ECFF01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Scanning.Framework", "SharePoint.Scanning.Framework\SharePoint.Scanning.Framework.csproj", "{024BC1C5-2892-43B5-AF34-D85AE595A2BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{89821E77-A9DB-4630-8AAB-0FA8BB098D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{024BC1C5-2892-43B5-AF34-D85AE595A2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024BC1C5-2892-43B5-AF34-D85AE595A2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024BC1C5-2892-43B5-AF34-D85AE595A2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89821E77-A9DB-4630-8AAB-0FA8BB098D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89821E77-A9DB-4630-8AAB-0FA8BB098D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89821E77-A9DB-4630-8AAB-0FA8BB098D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89821E77-A9DB-4630-8AAB-0FA8BB098D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
