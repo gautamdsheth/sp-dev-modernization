@@ -21,7 +21,7 @@ namespace ConsoleApp1
             {
                 var targetContext = cc.Clone("https://fisdemo.sharepoint.com/sites/TestCommSiteForSiteDesign");
                 //var pageTransformator = new PublishingPageTransformator(cc, targetContext);
-                var pageFile = cc.Web.GetFileByServerRelativeUrl("/sites/TestWikiSite/SitePages/TestWikiPage4.aspx");
+                var pageFile = cc.Web.GetFileByServerRelativeUrl("/sites/TestWikiSite/SitePages/testwppage101.aspx");
                 cc.Load(pageFile, p => p.ListItemAllFields);
                 cc.ExecuteQuery();
 
@@ -47,7 +47,8 @@ namespace ConsoleApp1
                     HandleWikiImagesAndVideos = true,
                     Overwrite = true,
                     SkipTelemetry = true,
-                    AddTableListImageAsImageWebPart = true
+                    AddTableListImageAsImageWebPart = true,
+                    CopyPageMetadata = true,
                 };
 
                 try
